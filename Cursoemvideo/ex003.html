@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+    <style>
+     body {
+        background-color: rgb(68, 68, 161);
+        color: white;
+        font: normal 20pt arial;
+        }
+
+     h1{
+         color: rgb(194, 194, 12);
+     }   
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Neste exercício aprenderemos a realizar operações matemáticas, vamos começar com a soma primeiro precisamos pedir pro usuario digitar dois numeros em: var n1 = window.prompt('Digite um numero'), var n2 = window.prompt('Digite outro numero'), mas primeiro precisamos converter em numeros, pq o prompt retorna pra gente uma string e por isso se não transformamos o Js fara uma concatenação e não a soma pq o sinal de + serve tanto pra adição quanto para concatenação.</p>
+
+
+    <script>
+      var n1 = Number(window.prompt('Digite um numero'))
+      var n2 = Number(window.prompt('Digite outro numero'))
+      var s = n1 + n2
+      window.alert ("A soma dos números e: " + s)
+
+    </script>
+
+</body>
+</html>
