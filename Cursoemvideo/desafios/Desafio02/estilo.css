@@ -1,0 +1,43 @@
+body{
+    font: normal  15pt "Arial";
+    background-color: rgb(42, 42, 218);
+    
+}
+
+header{
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+section{
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    margin: auto;
+    padding: 2px 0 8px 10px ;
+
+}
+
+
+#txtano{
+    width: 70px;
+    font: normal 11pt "Arial";
+
+
+}
+
+#button{
+    padding: 3px 25px 3px 25px;
+    border-radius: 6px;
+    font: normal 11pt "Arial";
+
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
